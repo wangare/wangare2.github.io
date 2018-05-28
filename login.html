@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>signup to animal friends</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style type="text/css">
+		.jumbotron{
+			padding: 30px;
+		}	
+		input[type=text]{
+			width:50%;
+			border-radius: 50px;
+		}
+		body{
+			font-family: Ariel;
+			text-align: center;
+			padding: 20px;
+			background-image: url('img/cat image.jpg');
+			background-repeat: no-repeat;
+			background-size: 100%;
+			color: white;
+			font-size: 32px;
+		}
+		#af{;
+			font-family: Bernard MT Condensed;
+			text-align: center;	
+			color: black;
+			font-size: 33px;
+			background-color: #0000ff;		
+		}
+	</style>
+	
+</head>
+<body>
+<div class="cat">
+<h2><u><b>Enter your details here</b></u></h2>
+	<fieldset>
+		<span class="glyphicon glyphicon-envelope"></span>
+		<span class="sr-only"></span>
+		<label for="email">Email</label>
+		<input type="text" name="email" placeholder="enter your email here" required=""><br>
+		<span class="glyphicon glyphicon-user"></span>
+		<span class="sr-only"></span>
+		<label for="username">Username</label>
+		<input type="text" name="username" placeholder="enter your username here"><br>
+		<label for="password">Password</label>
+		<input type="pswd" name="password" placeholder="enter your password here" required=""><br>
+		<span class="glyphicon glyphicon-thumbs-up"></span>
+		<span class="sr-only"></span>
+		<label for="confirm">Confirm</label>
+		<input type="pswd" name="password" placeholder="confirm your password" required=""><br>
+		<h3><u>Select your gender</u></h3>
+		<input type="radio" name="gender" value="male">Male<br>
+		<input type="radio" name="gender" value="female">Female<br>
+		<input type="radio" name="gender" value="rather not disclose">Rather not disclose<br>
+		<label><u><b>Select your country</b></u></label><br>
+			<select style="color: black;">
+				<option>Kenya</option>
+				<option>Uganda</option>
+				<option>United States</option>
+				<option>Tanzania</option>
+				<option>Ethopia</option>
+				<option>Rwanda</option>
+				<option>Sudan</option>
+				<option>South Sudan</option>
+			</select><br>
+		<button type="submit" class="btn btn-success">SUBMIT</button><br>
+		<span class="glyphicon glyphicon-trash"></span>
+		<span class="sr-only"></span>
+		<button type="reset" class="btn btn-danger">Clear</button><br>
+		<span class="glyphicon glyphicon-comment"></span>
+		<span class="sr-only"></span>
+		<textarea cols="24" rows="12" style="color: black;">Enter comment</textarea><br>
+		<button type="submit" style="color: black;"> Submit comment</button>
+	</fieldset>
+</div>
+<footer id="af">
+	Copyright &copy; Techmaker <br>
+	&reg; Animal Friends <br>
+</footer>
+</body>
+</html>

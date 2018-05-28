@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animals available ffor adoption</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style type="text/css">
+		body{
+			padding: 30px;
+		}
+		#cont1{
+			float: left;
+		}
+		.jumbotron{
+			background-color: lightblue;
+		}
+		#af{;
+			font-family: Bernard MT Condensed;
+			text-align: center;	
+			color: black;
+			font-size: 33px;
+			background-color: #0000ff;		
+		}
+	</style>
+</head>
+<body>
+<h1><u><strong>Pets awaiting adoption</strong></u></h1>
+<h4><b>Click button to see pets available</b></h4>
+<button class="btn btn-info" data-toggle="collapse" data-target="#dogs">Dogs</button>
+<div id="dogs" class="collapse">
+	<img src="img/dog image.jpg" alt="1stdogimage" width="" height="" >
+	<img src="img/dogimage.jpg" alt="2nddogimage" width="" height="">
+	<img src="img/dogs image.jpg" alt="3rddogimage" width="" height="">
+	<img src="img/cute dog.jpg" alt="4thdogimage" width="" height="">
+	<img src="img/catanddog.jpg" alt="5thdogimage" width="" height="">
+</div>
+<button class="btn btn-info" data-toggle="collapse" data-target="#cats">Cats</button>
+<div id="cats" class="collapse">
+	<img src="img/cat image.jpg" alt="1stcatimage" width="" height="" >
+	<img src="img/cat.jpg" alt="2ndcatimage" width="" height="">
+	<img src="img/catanddog.jpg" alt="3rdcatimage" width="" height="">
+	<img src="img/catsbackground.jpg" alt="4thcatimage" width="" height="">
+
+</div>
+<button class="btn btn-info" data-toggle="collapse" data-target="#mice">Mice</button>
+<div id="mice" class="collapse">
+	<img src="img/rat image.jpg" alt="1stmiceimage" width="" height="" >
+	<img src="img/cute mice pet.jpg" alt="2ndmiceimage" width="" height="" >
+	<img src="img/dorable.jpg" alt="3rdmiceimage" width="" height="" >
+	<img src="img/mice pet.jpg" alt="4thmiceimage" width="" height="" >
+	<img src="img/micepet.jpg" alt="5thmiceimage" width="" height="" >
+</div>
+<button class="btn btn-info" data-toggle="collapse" data-target="#monkey">Monkey</button>
+<div id="monkey" class="collapse">
+	<img src="img/monkey image.jpg" alt="" width="" height="" >
+</div>
+<button class="btn btn-info" data-toggle="collapse" data-target="#rabbit">Rabbit</button>
+<div id="rabbit" class="collapse">
+	<img src="img/rabbit.jpg" alt="" width="" height="" >
+</div>
+<button class="btn btn-info" data-toggle="collapse" data-target="#parrot">Parrot</button>
+<div id="parrot" class="collapse">
+	<img src="img/parrot image.jpg" alt="" width="" height="" >
+</div>
+<hr>
+<div class="jumbotron">
+<fieldset>
+<h4><b>FIll the form below to book a pet.</b></h4>
+	<label for="username">Username</label>
+	<input type="text" name="username" placeholder="enter your username" required=""><br>
+	<label for="password">Password</label>
+	<input type="pswd" name="passowrd" placeholder="enter your password" required=""><br>
+	<select>
+		<label>Type of pet</label>
+		<option>Dog</option>
+		<option>Cat</option>
+		<option>Mice</option>
+		<option>Monkey</option>
+		<option>Rabbit</option>
+		<option>Parrot</option>
+	</select><br><br>
+	<button type="submit" class="btn btn-danger">Submit</button>
+</fieldset>
+</div>
+<a href="companyslocation.html">For adoption visit the link to get our location.</a>
+<footer id="af">
+	Copyright &copy; Techmaker <br>
+	&reg; Animal Friends <br>
+</footer>
+</body>
+</html>
